@@ -6,7 +6,7 @@ class Ppap {
         String sentence;
         String obj1 = "";
         String obj2 = "";
-        //int end;
+
         sentence = sc.nextLine();
         for(int i = 9; i < sentence.length(); i++) {
             if(sentence.charAt(i) == ',') obj1 = sentence.substring(9, i);
